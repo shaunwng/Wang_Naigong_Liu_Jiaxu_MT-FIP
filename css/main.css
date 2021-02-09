@@ -99,6 +99,121 @@ nav ul li a{
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
+	background: rgb(207,10,44);
+	background: linear-gradient(148deg, rgba(207,10,44,1) 0%, rgba(19,41,75,1) 68%);
+	justify-content: center;
+	align-items: center;
+}
+
+#homeContent1,#homeContent2,#homeContent3,#homeContent4{
+	margin-bottom: 31px;
+}
+
+
+#homeContent1{
+	width: 860px;
+	height: 361px;
+	margin-top: 31px;
+	background-image: url("../images/index_page/beer_bar.png");
+}
+
+#homeContent2{
+	width: 860px;
+	height: 361px;
+	background-image: url("../images/index_page/car.png");
+}
+#homeContent3{
+	width: 860px;
+	height: 361px;
+	background-image: url("../images/index_page/stage.png");
+}
+#homeContent4{
+	width: 862px;
+	height: 377px;
+	background-image: url("../images/index_page/homebanner_4.png");
+}
+
+#homeContent1 h3{
+	font-size: 83px;
+	-webkit-text-stroke: 3px #fff; 
+	-webkit-text-fill-color: transparent;
+	margin-left: 77px;
+	margin-top: 200px;
+
+}
+.button_1{
+	width: 205px;
+	height: 52px;
+	background-color: #CF0A2C;
+	text-align: center;
+	margin-left: 620px;
+	
+}
+
+.button_1 a{
+
+	font-size: 20px;
+	color: white;
+	line-height: 52px;
+	text-decoration: none;
+}
+
+/*-------------*/
+
+
+#homeContent2 h3{
+	font-size: 83px;
+	-webkit-text-stroke: 3px #fff; 
+	-webkit-text-fill-color: transparent;
+	margin-left: 77px;
+	margin-top: 46px;
+
+}
+.button_2{
+	width: 205px;
+	height: 50px;
+	background-color: #CF0A2C;
+	text-align: center;
+	margin-left:620px;
+	margin-top: 160px;
+	
+}
+
+.button_2 a{
+
+	font-size: 20px;
+	color: white;
+	line-height: 52px;
+	text-decoration: none;
+	
+}
+
+/*--------------*/
+#homeContent3 h3{
+	font-size: 83px;
+	-webkit-text-stroke: 3px #fff; 
+	-webkit-text-fill-color: transparent;
+	margin-left: 220px;
+	margin-top: 70px;
+
+}
+.button_3{
+	width: 205px;
+	height: 50px;
+	background-color: #CF0A2C;
+	text-align: center;
+	margin-left:64px;
+	margin-top: 105px;
+	
+}
+
+.button_3 a{
+
+	font-size: 20px;
+	color: white;
+	line-height: 52px;
+	text-decoration: none;
+	
 }
 
 
@@ -106,32 +221,59 @@ nav ul li a{
 
 
 
+/*---------------*/
 
 
 
+#homeContent4 h3{
+	font-size: 83px;
+	-webkit-text-stroke: 3px #fff; 
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	margin-top: 80px;
+}
+
+#homeContent4 h4{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 38px;
+}
 
 
+.homepageSign{
 
+	margin-top: 54px;
+	margin-left: 240px;
+}
 
+.inputhomeArea{
+	width: 261px;
+	height: 41px;
+	display: inline-block;
+}
 
+.button_4{
+	width: 114px;
+	height: 45px;
+	background-color: #CF0A2C;
+	text-align: center;
+	margin-left:7px;
+	display: inline-block;
+	
+}
 
+.button_4 a{
 
+	font-size: 15px;
+	color: white;
+	line-height: 45px;
+	text-decoration: none;	
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.homepageSign input::placeholder{
+  color: #CF0A2C;
+}
 /*----------------------------- HOME page end -----------------------------------------*/
 
 
