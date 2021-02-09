@@ -276,7 +276,7 @@ nav ul li a{
 	margin-top: 27px;
 }
 
-.inputEmail, .inputAddress{
+#inputEmail, #inputAddress{
 	width: 328.5px;
 	border-top-width: 0px;
 	border-left-width: 0px;
@@ -286,7 +286,7 @@ nav ul li a{
 	font-size: 18px;
 }
 
-.inputName,.inputAge{
+#inputName,#inputAge{
 	width: 148px;
 	border-top-width: 0px;
 	border-left-width: 0px;
