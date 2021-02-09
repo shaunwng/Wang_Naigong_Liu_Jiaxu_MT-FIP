@@ -278,7 +278,57 @@ nav ul li a{
 
 
 
+/*--------------------------About page--------------------------------------------*/
 
+#aboutContainer{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: rgb(207,10,44);
+	background: linear-gradient(148deg, rgba(207,10,44,1) 0%, rgba(19,41,75,1) 68%);
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------About page end-----------------------------------------*/
 
 
 
