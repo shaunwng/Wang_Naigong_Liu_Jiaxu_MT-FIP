@@ -11,7 +11,7 @@
 
 	<body>
 
-		<div id="container">
+		<div id="contactContainer">
 			<h1 class="hidden">Lysol Beer Contact Page</h1>
 
 		<!-- header -->
@@ -20,17 +20,17 @@
 
 				<div id="logo">
 					<h3 class="hidden">Logo</h3>
-					<img src="" alt="">
+					<img src="images/logo.png" alt="logo">
 				</div>
 
 				<nav class="mainnav">
 					<h3 class="hidden">Main Navigation</h3>
 					<ul>
-						<li><a href="index.html">HOME</a></li>
-						<li><a href="about.html">ABOUT</a></li>
-						<li><a href="products.html">OUR BEER</a></li>
-						<li><a href="advertisements.html">ADVERTISEMENT</a></li>
-						<li class="selected"><a href="contact.html">CONTACT</a></li>
+						<li><a href="index.html" class="selected">HOME</a></li>
+						<li><a href="about.html" class="selected">ABOUT</a></li>
+						<li><a href="products.html" class="selected">OUR BEERS</a></li>
+						<li><a href="advertisements.html" class="selected">ADVERTISEMENTS</a></li>
+						<li><a href="contact.html" class="onPage">CONTACT</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -40,22 +40,26 @@
 			<section id="contactBanner">
 				<h2 class="hidden">Contact page Banner</h2>
 
-				<div class="bannerText">
+				<div class="blueLine"></div>
+
+				<div class="c_bannerText">
 					<h3 class="hidden">Banner Text</h3>
 					<article>
 						<h4>Contact us</h4>
 						<p>Whether you’re wanting to get in touch with a brief or simply get directions to the office, you can find all the information you need below.</p>
 					</article>
 				</div>
-
+				
 				<!-- need add hover gradient ball here !!!!-->
+				<div class="gradientCircle"></div>
 
-				<div class="bannerPhoto_1">
+
+				<div class="c_bannerPhoto_1">
 					<h3 class="hidden">Banner Photo 1</h3>
 					<img src="images/contact_page/banner_pic_left.png" alt=" contact banner food & beer pic ">
 				</div>
 
-				<div class="bannerPhoto_2">
+				<div class="c_bannerPhoto_2">
 					<h3 class="hidden">Banner Photo 2</h3>	
 					<img src="images/contact_page/banner_pic_right.png" alt="contact banner food & beer pic">			 
 				</div>
@@ -64,8 +68,13 @@
 
 
 		<!-- contact form 1 -->
-			<section id="contactForm_1">
+			<section id="contactForm1">
 				<h2 class="hidden">Contact Page Form 1</h2>
+
+				<div class="form1Bg">
+					<div class="formCircle1"></div>
+					<div class="formCircle2"></div>
+				</div>
 
 				<section id="form1Board">
 					<h2 class="hidden">Contact Form 1 Board</h2>
@@ -73,7 +82,7 @@
 
 					<section class="form1Logo">
 						<h3 class="hidden">Contact Page form 1 logo</h3>
-						<img src="" alt="">
+						<img src="images/logo.png" alt="logo">
 					</section>
 
 
@@ -81,45 +90,49 @@
 						<h3 class="hidden">Contact Page form 1 table</h3>
 						
 						<div class="form1Title">
-							<p>Let's talk</p>
-							<p>Enter Your Beer Details.</p>
+							<p class="form1Title1">Let's talk</p>
+							<p class="form1Title2">Enter Your Beer Details.</p>
 						</div>
 
-						<form id="LetTalkForm" action="form.php" method="post">
+						<form id="letTalkForm" action="form.php" method="post">
 
-						 	<div id="name">
-						 		<label>
-						 			<input placeholder="Name"type="text" name="name" required>
-						 		</label>	
-							</div>
+							<div class="formInRow">
+								<div id="name">
+						 			<label>
+						 				<input placeholder="Name" class="inputName" type="text" name="name" required>
+						 			</label>	
+								</div>
 
-							<div id="age">
-								<label>
-									<input placeholder="Age" type="number" name="age">
-								</label>
+								<div id="age">
+									<label>
+										<input placeholder="Age" class="inputAge" type="number" name="age" required>
+									</label>
+								</div>
 							</div>
+						 	
 
 
 							<div id="email">
 								<label>
-									<input placeholder="Email"  type="email" name="email" required>
+									<input  class="inputEmail" placeholder="Email"  type="email" name="email" required>
 								</label>
 							</div>
 
 							<div id="address">
 								<label>
-									<input placeholder="Address"  type="text" name="address" required>
+									<input  class="inputAddress" placeholder="Address"  type="text" name="address" required>
 								</label>
 							</div>
 
 							<div id="checkbox">
-								<input type="checkbox" id="checkbox1" name="checkbox1" value="check">
-  								<label for="agree"> I agree xxxxxxx  Cookies Policy and Lysol Beer.</label><br>
+								<input class="inputCheck" type="checkbox" name="checkbox1" value="check">
+  								<label> I agree xxxxxxx <span>Cookies Policy</span> and <span>Lysol Beer</span>.</label>
 							</div>
 
 							<div class="submitButton">
 								<a href="#">Submit</a>
 							</div>
+						</form>
 					</section>
 
 				</section>
@@ -131,12 +144,12 @@
 
 
 		<!-- contact form 2 -->
-			<section id="contactForm_2">
+			<section id="contactForm2">
 				<h2 class="hidden">Contact Page Form 2</h2>
 
 				<section id="map">
 					<h3 class="hidden">Map</h3>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11673.396914738647!2d-81.26467372101847!3d42.99198042360935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef1fdde0a8edf%3A0x31bc7d114cf892fb!2zNTQgT3hmb3JkIFN0IEUsIExvbmRvbiwgT04sIOWKoOaLv-Wkpw!5e0!3m2!1szh-CN!2shk!4v1612755280035!5m2!1szh-CN!2shk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11673.396914738647!2d-81.26467372101847!3d42.99198042360935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef1fdde0a8edf%3A0x31bc7d114cf892fb!2zNTQgT3hmb3JkIFN0IEUsIExvbmRvbiwgT04sIOWKoOaLv-Wkpw!5e0!3m2!1szh-CN!2shk!4v1612755280035!5m2!1szh-CN!2shk" width="480" height="620" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</section>	
 
 				<section id="form2Right">
@@ -148,44 +161,65 @@
 							<p>GET in touch</p>
 						</div>
 
-						<div class="ContactForm2Icon">
-							<ul>
-								<li>
-									<object type="image/svg+xml" data="images/contact_page/icon_location.svg"></object>
-									<p>54 Oxford</p>
-								</li>
-								<li>
-									<object type="image/svg+xml" data="images/contact_page/icon_phone.svg"></object>
-									<p>226-998-2678</p>
-								</li>
-								<li>
-									<object type="image/svg+xml" data="images/contact_page/icon_wifi.svg"></object>
-									<P>WIFI</P>
-								</li>
-							</ul>
+						<div class="contactForm2Icon">
+
+							<div class="icon_location">
+								<object type="image/svg+xml" data="images/contact_page/icon_location.svg"></object>
+								<p>54 Oxford</p>	
+							</div>
+
+							<div class="icon_phone">
+								<object type="image/svg+xml" data="images/contact_page/icon_phone.svg"></object>
+								<p>226-998-2678</p>
+							</div>
+								
+							<div class="icon_wifi">
+								<object type="image/svg+xml" data="images/contact_page/icon_wifi.svg"></object>
+								<P>WIFI</P>
+							</div>	
+
 						</div>
 					</div>
 
 
 
 					<div class="form2Bottom">
+
 						<div class="form2Title2">
 							<p>FREE Delivery</p>
 						</div>
 						
 
-						<form id="LetTalkForm" action="form.php" method="post">
+						<form id="deliveryForm" action="form.php" method="post">
 
 							<div class="form2Bottom_left">
-								<div class="submitButton2">
-									<a href="#">Submit</a>
+
+								<div id="city">
+									<label for="city">City</label>
+									<input placeholder="London" class="inputCity" type="text" name="city"required>
 								</div>
+
+
+								<div id="street">
+									<label for="street">Street</label>
+									<input placeholder="54 Oxford st" class="inputStreet" type="text" name="street" required>
+								</div>
+
+								<div id="postcode">
+									<label for="postcode">Postcode</label>
+									<input placeholder="N6G 1C8" class="inputPostcode" type="text" name="postcode" required>
+								</div>
+
+								<div class="finishButton">
+									<a href="#">Finish</a>
+								</div>
+
+
 							</div>
 
 
 							<div class="form2Bottom_right">
-								<label for="message">Message.</label>
-
+								<label>Message.</label>
 								<textarea id="messageArea" name="message">Choose your beer~</textarea>
 							</div>	
 						</form>	
@@ -207,23 +241,36 @@
 
 				<div class="footerLogo">
 					<h3 class="hidden">Footer logo</h3>
-					<img src="" alt="">
+					<img src="images/logo.png" alt="logo">
 				</div>
 
 				<div class="footerRight">
 					<h3 class="hidden">Foot icon & copyright</h3>
 
-					<div class="footerIcon">
-					<p>SOCIAL MEDIA</p>
+					<div class="socialMedia">
+							<p>Social Media</p>
 
-					<object type="image/svg+xml" data="images/contact_page/Icon_facebook.svg"></object>
+							<div id="facebook">
+								<a href="http://www.facebook.com">
+									<img src="images/Icon_facebook.svg" alt="interactive vector image">
+								</a>
+							</div>
 
-					<object type="image/svg+xml" data="images/contact_page/Icon_twitter.svg"></object>
+							<div id="twitter">
+								<a href="https://www.instagram.com/shaun_wng/">
+									<img src="images/Icon_twitter.svg" alt="interactive vector image">
+								</a>
+							</div>
 
-					<object type="image/svg+xml" data="images/contact_page/Icon_youtube.svg"></object>
-
-
+							<div id="youTube">
+								<a href="https://www.twitter.com/">
+									<img src="images/Icon_youtube.svg" alt="interactive vector image">
+								</a>
+							</div>
+						
 					</div>
+
+
 
 					<div class="footerCopy">
 					<P>ALWAYS ENJOY RESPONSIBLY. © 2021 ANHEUSER-BUSCH, LYSOL® LAGER BEER, ST. OXFORD, ON. DO NOT SHARE THIS CONTENT WITH MINORS.</P>

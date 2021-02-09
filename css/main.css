@@ -1,3 +1,608 @@
+
+@font-face {
+    font-family: 'bud_boldregular';
+    src: url('../fonts/bud_bold-webfont.woff2') format('woff2'),
+         url('../fonts/bud_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 .hidden{
 	display: none;
 }
+html{
+	background: rgb(19,41,75);
+background: linear-gradient(148deg, rgba(19,41,75,0.9878326330532213) 8%, rgba(207,10,44,1) 52%, rgba(19,41,75,1) 96%);
+}
+
+body{
+	font-family: 'bud_boldregular',Arial, serif;
+}
+/*---------- for nav underline hover ---------*/
+.selected{
+	position: relative;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.selected:before{
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -2px;
+	width: 0;
+	height: 2px;
+	background: #CF0A2C;
+	transition: all .3s;
+}
+.selected:hover:before{
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+/*---------- nav hover end ----------*/
+
+/*------------------------- This is for contact page ------------------------*/
+#contactContainer{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+/*for header */
+
+header{
+	width: 960px;
+	height: 91px;
+	background-color: black;
+
+}
+
+#logo{
+	width: 200px;
+	height: 91px;
+	float: left;
+	margin-top: 13px;
+	margin-left: 16px;
+}
+
+
+nav{
+	width: 608px;
+	height: 26px;
+	float: left;
+	margin-left: 135px;
+
+
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 91px;
+	margin-left: 19px;
+
+}
+
+.onPage{
+	text-decoration: underline;
+	text-decoration-color: #CF0A2C;
+	text-decoration-thickness: 3px;
+}
+/*---------- header end ----------*/
+
+/*----------for banner -----------*/
+#contactBanner{
+	width: 960px;
+	height: 407px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	position: relative;
+	background-color: #2F2E2E;
+}
+
+.blueLine{
+	width: 257px;
+	height: 19px;
+	background-color: #24C7E5;
+	opacity:0.4;
+	margin-top: 145px;
+	margin-left:69px;	
+}
+
+.c_bannerText{
+	width: 352px;
+	height: 181px;
+	position: absolute;
+	top: 95px;
+	left: 69px;
+}
+
+.c_bannerText h4{
+	font-size: 70px;
+	color: white;
+}
+.c_bannerText p {
+	font-size: 20px;
+	color: white;
+	margin-top: 25px;
+}
+
+.gradientCircle{
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	background: rgb(2,0,36);
+	background: linear-gradient(80deg, rgba(2,0,36,1) 29%, rgba(207,10,44,1) 100%);
+	opacity: 50%;
+	/*backdrop-filter:blur(1rem);*/
+	filter: blur(4px);
+	box-shadow:inset 0px 0px 100px 100px rgba(255,255,255, 0.1);
+	border-radius: 50%;
+	top: 107px;
+	left: 194px;
+}
+
+
+
+/*relative blueLine position */
+.c_bannerPhoto_1{
+	margin:90px 20px 90px 200px;
+}
+
+
+.c_bannerPhoto_2{
+	margin-top: 70px;
+	margin-left: 10px;
+}
+
+/*-----------banner end -----------*/
+
+
+/*---------- contact form 1 -----------*/
+
+#contactForm1{
+	width: 960px;
+	height: 601px;
+	background-color: black;
+	display: flex;
+	position: relative;
+/*	align-items: center;
+	justify-content: center;*/
+}
+
+
+.form1Bg{
+	display: flex;
+}
+.formCircle1{
+	height: 370px;
+	width: 370px;
+    background: #CF0A2C;
+    border-radius: 0 0 370px 0;
+	filter: blur(2px);
+}
+
+.formCircle2{
+	height: 370px;
+	width: 370px;
+    background: #13294B;
+    border-radius: 370px 0 0 0;
+    float: right;
+    margin-top: 231px;
+    margin-left: 220px;
+ 	filter: blur(2px);
+}
+
+#form1Board{
+	width: 770px;
+	height: 412px;
+	background-color: #2f2f2f;
+	position: absolute;
+	top: 111px;
+	left: 95px;
+	display: flex;
+	flex-direction: row;
+}
+
+.form1Logo{
+	width: 225px;
+	height: 120px;
+}
+
+.form1Logo img{
+	margin-top: 180px;
+	margin-left: 90px;
+}
+
+
+
+
+.form1Right{
+	display: flex;
+	flex-direction: column;
+	width: 370px;
+	height: 412px;
+	margin-left: 110px;
+}
+
+
+
+.form1Title1{
+	color:#24C7E5;
+	margin-top: 52px;
+	font-size: 38px
+
+}
+
+.form1Title2{
+	color: white;
+	margin-top: 11px;
+	font-size: 32px;
+}
+
+.formInRow{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+
+#age{
+	margin-left: 29px;
+}
+
+#email{
+	margin-top: 26px;
+}
+
+#address{
+	margin-top: 24px;
+}
+#checkbox{
+	margin-top: 24px;
+
+}
+.submitButton{
+	margin-top: 27px;
+}
+
+.inputEmail, .inputAddress{
+	width: 328.5px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px; 
+	background-color: #2F2F2F;
+	font-size: 18px;
+}
+
+.inputName,.inputAge{
+	width: 148px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px; 
+	background-color: #2F2F2F;
+	font-size: 18px;
+}
+
+
+.inputCheck{
+	width: 17px;
+	height:17px;
+	cursor: pointer;
+}
+
+#checkbox label{
+	color: #808080;
+}
+
+.submitButton{
+	width: 85px;
+	height: 24px;
+	background-color: #24C7E5;
+	border-radius: 12px;
+	text-align: center;
+}
+.submitButton a{
+	font-size: 10px;
+	color: white;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+span{
+	color:#24C7E5;
+}
+
+/*---------- contact form 1 end ----------*/
+
+
+
+
+/*---------- contact form 2  ----------*/
+#contactForm_2{
+	width: 960px;
+	height: 591px;
+	display: flex;
+}
+
+#map{
+
+	float: left;
+}
+
+
+/*form 2 right side*/
+#form2Right{
+	width: 480px;
+	height: 620px;
+	background-color: #2F2F2F;
+	float: right;
+
+}
+.form2Title{
+	margin-left: 166px;
+	margin-top: 52px;
+}
+
+
+.form2Title p{
+	font-size: 27px;
+	color: white;
+}
+
+.contactForm2Icon {
+	width: 369px;
+	height: 78px;
+	margin-top: 20px;
+	margin-left: 67px;
+
+}
+
+.contactForm2Icon > div{
+	float: left;
+}
+
+.contactForm2Icon p{
+	font-size: 18px;
+	color: white;
+}
+
+/*location icon*/
+.icon_location object{
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+
+/*phone icon*/
+.icon_phone{
+	margin-left:33px;
+}
+
+
+.icon_phone object{
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+/*wifi icon*/
+
+
+.icon_wifi{
+	margin-left: 33px;
+}
+
+
+.icon_wifi object{
+	margin-bottom: 12px;
+}
+
+.icon_wifi p{
+	text-align: center;
+}
+
+
+
+
+
+.form2Bottom{
+	width: 385px;
+	height: 313px;
+	background-color: black;
+	border-radius: 47px;
+	margin-top: 60px;
+	margin-left: 46px;
+
+}
+
+
+.form2Title2 {
+	width: 385px;
+	height: 55px;
+}
+.form2Title2 p{
+	color: white;
+	text-align: center;
+	line-height: 55px;
+
+}
+
+#deliveryForm{
+	display: flex;
+}
+
+.form2Bottom_left{
+	float: left;
+	margin-left: 10px;
+}
+
+.inputCity, .inputStreet, .inputPostcode{
+	width: 149px;
+	height: 36px;
+	border-radius:18px;
+	font-size: 13px;
+	font-family: "bud_boldregular",Arial,serif;
+}
+#city,#street,#postcode{
+	display: flex;
+	flex-direction: column;
+}
+
+#city,#street{
+	margin-bottom: 3px;
+}
+
+#postcode{
+	margin-bottom: 20px;
+}
+
+
+.form2Bottom_left label{
+	color: white;
+	font-size: 13px;
+	margin-left: 5px;
+}
+
+.form2Bottom_right label{
+	color: white;
+	margin-left: 5px;
+	
+}
+
+
+.form2Bottom_right {
+	margin-left: 25px;
+}
+
+#messageArea{
+	background-color: white;
+	width: 149px;
+	height: 194px;
+	border-radius: 18px;
+	margin-top: 10px;
+	font-family: "bud_boldregular",Arial,serif;
+	color: #808080;
+
+}
+
+.finishButton a{
+	color: white;
+	text-decoration: none;
+}
+.finishButton{
+	width: 149px;
+	height: 36px;
+	background-color: #24C7E5;
+	border-radius: 18px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 36px;
+
+}
+
+
+
+/*---------- contact form 2 end ----------*/
+
+
+/*------footer---------*/
+
+footer{
+	width: 960px;
+	height: 105px;
+	display: flex;
+	background: rgb(19,41,75);
+	background: linear-gradient(90deg, rgba(19,41,75,1) 24%, rgba(207,10,44,1) 72%);
+}
+
+.footerRight{
+	width: 380px;
+	height: 83px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-left: 350px;
+}
+.footerLogo{
+	margin-top: 20px;
+	margin-left: 18px;
+
+}
+.socialMedia{
+	width: 313px;
+	hight: 32px;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 18px;
+}
+.socialMedia p{
+	color:white;
+	font-size: 22px;
+	text-transform: uppercase;
+	line-height: 32px;
+}
+#facebook{
+	margin-left: 49px;
+}
+
+#twitter,#youTube{
+	margin-left: 16px;
+}
+
+.footerCopy p{
+	text-align: center;
+	font-size:12px;	
+	color: white;
+	margin-top: 10px;
+}
+
+/*-------footer end--------*/
+
+
+/*-------------------------------- contact page end ---------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
