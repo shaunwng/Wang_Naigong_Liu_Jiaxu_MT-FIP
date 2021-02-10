@@ -330,8 +330,215 @@ nav ul li a{
 
 /*----------------------------About page end-----------------------------------------*/
 
+/*----------==================Products page ===================---------------------*/
 
 
+#productsContainer{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: rgb(207,10,44);
+	background: linear-gradient(148deg, rgba(207,10,44,1) 0%, rgba(19,41,75,1) 68%);
+	justify-content: center;
+	align-items: center;
+}
+
+
+#productsHero{
+	width: 960px;
+	background-color: white;
+
+}
+.p_heroImg{
+	margin-left: 10px;
+}
+
+#p_content1{
+	width: 960px;
+	height: 480px;
+}
+
+
+#p_content2{
+	width: 960px;
+	height: 480px;
+}
+
+
+#p_content3{
+	width: 960px;
+	height: 480px;
+
+}
+#p_content4{
+	width: 960px;
+	height: 480px;
+	margin-bottom: 38px;
+}
+/*---------------*/
+#p_content1,#p_content2,#p_content3,#p_content4{
+	margin-top: 38px;
+}
+/*----------------*/
+#p_content1,#p_content2,#p_content3,#p_content4{
+	position: relative;
+
+}
+/*----------------*/
+.content1_beer,.content2_beer,.content3_beer,.content4_beer{
+	position: absolute;
+	top: 168px;
+	left: 148px;
+
+}
+/*----------------*/
+#beer_info_1,#beer_info_2,#beer_info_3,#beer_info_4{
+	position: absolute;
+	top: 72px;
+	left: 284px;
+	display: flex;
+	flex-direction: column;
+}
+/*----------------*/
+#beer_info_1 h4,#beer_info_2 h4,#beer_info_3 h4,#beer_info_4 h4{
+	font-size: 46px;
+	margin-bottom: 18px;
+}
+/*----------------*/
+#beer_info_1 h4{
+	color: #0B61A3;
+}
+#beer_info_2 h4{
+	color: #E7C1FF;
+}
+
+#beer_info_3 h4{
+	color: #FEC100;
+}
+
+#beer_info_4 h4{
+	color: #1CA066;
+}
+/*----------------*/
+
+.beer_brief{
+	width: 600px;
+	height: 94px;
+	font-size: 24px;
+	color: white;
+	margin-bottom: 50px;
+}
+/*----------------*/
+#beer_detail_1,#beer_detail_2,#beer_detail_3,#beer_detail_4{
+	width: 412px;
+	height:70px;
+	margin-left: 198px;
+}
+/*----------------*/
+#beer_detail_1 ul li {
+	display: inline-block;
+
+}
+#beer_detail_2 ul li {
+	display: inline-block;
+
+}
+#beer_detail_3 ul li {
+	display: inline-block;
+
+}
+#beer_detail_4 ul li {
+	display: inline-block;
+
+}
+/*----------------*/
+
+#beer_detail_1 ul li p{
+	color: #0B61A3;
+	font-size: 15px;
+}
+#beer_detail_2 ul li p{
+	color: #E7C1FF;
+	font-size: 15px;
+}
+
+#beer_detail_3 ul li p{
+	color: #FEC100;
+	font-size: 15px;
+}
+
+#beer_detail_4 ul li p{
+	color: #1CA066;
+	font-size: 15px;
+}
+
+/*----------------*/
+
+#beer_detail_1 ul li p:nth-child(2){
+	font-size: 38px;
+}
+#beer_detail_2 ul li p:nth-child(2){
+	font-size: 38px;
+}
+#beer_detail_3 ul li p:nth-child(2){
+	font-size: 38px;
+}
+#beer_detail_4 ul li p:nth-child(2){
+	font-size: 38px;
+}
+/*----------------*/
+
+#beer_detail_1 ul li:nth-child(1),#beer_detail_1 ul li:nth-child(2),#beer_detail_1 ul li:nth-child(3){
+	margin-right: 50px;
+}
+#beer_detail_2 ul li:nth-child(1),#beer_detail_2 ul li:nth-child(2),#beer_detail_2 ul li:nth-child(3){
+	margin-right: 50px;
+}
+#beer_detail_3 ul li:nth-child(1),#beer_detail_3 ul li:nth-child(2),#beer_detail_3 ul li:nth-child(3){
+	margin-right: 50px;
+}
+#beer_detail_4 ul li:nth-child(1),#beer_detail_4 ul li:nth-child(2),#beer_detail_4 ul li:nth-child(3){
+	margin-right: 50px;
+}
+
+/*----------------*/
+
+.products_button{
+	width: 122px;
+	height: 46px;
+	border-radius: 21px;
+	background-color: #13294B;
+	text-align: center;
+	color: white;
+	line-height: 46px;
+	text-decoration: none;
+	margin-left: 450px;
+	margin-top: 35px;
+}
+
+
+
+
+/*----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------==================Products page end ===================---------------------*/
 
 /*------------------------- This is for contact page ------------------------*/
 #contactContainer{
