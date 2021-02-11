@@ -91,7 +91,7 @@ nav ul li a{
 /*---------- nav hover end ----------*/
 
 
-/*------------------------- This is for HOME page ------------------------*/
+/*------------------------------------------- This is for HOME page --------------------------------------------------------*/
 
 #homeContainer{
 	width: 960px;
@@ -274,11 +274,11 @@ nav ul li a{
 .homepageSign input::placeholder{
   color: #CF0A2C;
 }
-/*----------------------------- HOME page end -----------------------------------------*/
+/*------------------------------------------------- HOME page end -----------------------------------------------------------*/
 
 
 
-/*--------------------------About page--------------------------------------------*/
+/*----------------------------------------------------- About page ------------------------------------------------------------*/
 
 #aboutContainer{
 	width: 960px;
@@ -328,9 +328,9 @@ nav ul li a{
 
 
 
-/*----------------------------About page end-----------------------------------------*/
+/*--------------------------------------------------About page end-------------------------------------------------------*/
 
-/*----------==================Products page ===================---------------------*/
+/*----------========================================Products page ==================================---------------------*/
 
 
 #productsContainer{
@@ -523,6 +523,226 @@ nav ul li a{
 
 /*----------------*/
 
+/*----------==================Products page end ===================------------------------------*/
+
+
+/*----------==================Advertisements page start ===================---------------------*/
+
+
+
+#adsContainer{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: rgb(207,10,44);
+	background: linear-gradient(148deg, rgba(207,10,44,1) 0%, rgba(19,41,75,1) 68%);
+	justify-content: center;
+	align-items: center;
+}
+
+/*----------------  ads hero --------------------*/
+#adsHero {
+	width:960px;
+	height: 337px;
+}
+
+#adsHero p{
+	font-size: 46px;
+	color: white;
+	position: absolute;
+	top: 254px;
+	left: 243px;
+}
+
+#adsHero{
+	position: relative;
+}
+
+/*----------------  ads hero  end--------------------*/
+
+/*--------------------  banner 1 ----------------------*/
+
+#ads_banner1 {
+	width: 960px;
+	height: 465px;
+}
+#ads_banner1 img{
+	float: left;
+}
+/*--------------------  banner 1 end ----------------------*/
+
+
+/*--------------------  banner 2 ----------------------*/
+
+#ads_banner2 {
+	width: 960px;
+	height: 370px;
+	background: rgb(104,5,22);
+	background: linear-gradient(123deg, rgba(104,5,22,1) 0%, rgba(116,6,25,1) 37%, rgba(207,10,44,1) 100%);
+}
+
+#ads_banner2 img{
+	float: left;
+	margin-top: 58px;
+	margin-left: 130px;
+}
+
+
+
+.ads_banner2Text{
+	width: 346px;
+	height: 200px;
+	margin-left: 489px;
+	margin-top: 139px;
+
+}
+
+
+.ads_banner2Text p{
+	color: white;
+}
+
+
+.ads_banner2Text p:nth-child(1){
+	font-size: 86px;
+	margin-bottom: 11px;
+}
+
+
+.ads_banner2Text p:nth-child(2){
+	font-size: 14px;
+	margin-bottom: 21px;
+}
+
+.ads_banner2Text p:nth-child(3){
+	font-size: 10px;
+	margin-bottom: 18px;
+}
+
+.couponButton{
+	display: block;
+	color: #CF0A2c;
+	font-size: 20px;
+	background-color: white;
+	width: 303px;
+	height: 46px;
+	border-radius: 26px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 46px;
+
+}
+
+#ads_banner3{
+	width: 960px;
+	height: 533px;
+	background-color: white;
+	position: relative;
+
+}
+
+.ads_banner3Left img, .ads_banner3Right img, .ads_bannerRightTop img, .ads_bannerRightBottom img{
+	position: absolute;
+}
+
+.ads_banner3Left img{
+	margin-left: 101px;
+	margin-top: 18px;
+}
+.ads_banner3Left a{
+	position: absolute;
+	width: 94px;
+	height: 36px;
+	background-color: #cf0a2c;
+	color: black;
+	font-size: 20px;
+	border-radius: 26px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 36px;
+	top: 490px;
+	left: 384px;
+
+}
+
+
+.ads_bannerRightTop{
+	width: 396px;
+	height: 256px;
+}
+
+.ads_bannerRightTop img{
+	left: 564px;
+}
+
+.ads_bannerRightTop img:nth-child(1){
+	margin-top: 10px;
+	
+}
+
+.ads_bannerRightTop img:nth-child(2){
+	margin-top: 63px;
+	margin-left: 170px;
+}
+
+
+
+.ads_bannerRightTop a{
+	position: absolute;
+	width: 94px;
+	height: 36px;
+	background-color: #cf0a2c;
+	color: black;
+	font-size: 20px;
+	border-radius: 26px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 36px;
+	top: 200px;
+	left: 670px;
+}
+
+.ads_bannerRightBottom a{
+	position: absolute;
+	width: 94px;
+	height: 36px;
+	background-color: #cf0a2c;
+	color: black;
+	font-size: 20px;
+	border-radius: 26px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 36px;
+	top: 480px;
+	left: 800px;
+}
+
+.ads_bannerRightBottom {
+	margin-top: 30px;
+}
+.ads_bannerRightBottom img{
+	left: 567px;
+	margin-left: 40px;
+}
+
+
+.line{
+	position: absolute;
+	height: 533px;
+	width: 5px;
+	background: rgb(207,10,44);
+	background: linear-gradient(123deg, rgba(207,10,44,1) 6%, rgba(19,41,75,1) 63%);
+	margin-left: 500px;
+}
+
+/*--------------------  banner 2 end ----------------------*/
+
+
+
+/*--------------------  banner 3 ----------------------*/
+/*--------------------  banner 3 end  ----------------------*/
 
 
 
@@ -538,9 +758,43 @@ nav ul li a{
 
 
 
-/*----------==================Products page end ===================---------------------*/
 
-/*------------------------- This is for contact page ------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------==================Advertisements page end ===================---------------------*/
+
+
+
+
+
+
+/*------------------------- This is for contact page --------------------------------------------*/
 #contactContainer{
 	width: 960px;
 	height: auto;
