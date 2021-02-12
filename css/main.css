@@ -278,6 +278,15 @@ nav ul li a{
 
 
 
+
+
+
+
+
+
+
+
+
 /*----------------------------------------------------- About page ------------------------------------------------------------*/
 
 #aboutContainer{
@@ -291,44 +300,304 @@ nav ul li a{
 	justify-content: center;
 	align-items: center;
 }
+/*-----------------------*/
+
+#aboutHero{
+	width: 960px;
+	height: 542px;
+	position: relative;
+}
+
+#aboutHero a{
+	position: absolute;
+	top: 448px;
+	left: 725px;
+	width: 153px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #13294B;
+	color: white;
+	font-size: 22px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+/*--------------------*/
+
+#aboutContent1{
+	width: 960px;
+	height: 520px;
+	background-color: white;
+	position: relative;
+}
+
+#aboutContent1 img{
+	position: absolute;
+}
+
+#aboutContent1 img:nth-child(2){
+	top: 230px;
+}
+
+#aboutContent1 img:nth-child(3){
+	top: 90px;
+	left: 124px;
+}
+#aboutContent1 img:nth-child(4){
+	top: 105px;
+	left: 160px;
+}
+
+
+/*-------------------*/
+.a_content1Text p{
+	position: absolute;
+	width: 429px;
+}
+
+.a_content1Text p:nth-child(1){
+	font-size: 44px;
+	top: 63px;
+	left: 602px;
+}
+
+.a_content1Text p:nth-child(2){
+	font-size: 20px;
+	top: 118px;
+	left: 459px;
+}
+
+/*-----------------------*/
+
+
+#aboutContent2{
+	position: relative;
+	height: 1613px;
+	width: 960px;
+	background: url("../images/about_page/bgc1.png");
+}
+
+.content2Info1,.content2Info2,.content2Info3,.content2Info4，.content2Info5 {
+	
+	position: absolute;
+}
+/*-------------------*/
+
+.content2Info1 img{
+	left: 74px;
+	position: absolute;
+}
+.content2Info1 p{
+	margin-left: 74px;
+	position: absolute;
+}
+
+.content2Info1 p:nth-child(2) {
+	color: white;
+	left: 542px;
+	top: 32px;
+	font-size: 44px;
+
+}
+.content2Info1 p:nth-child(3) {
+	color: white;
+	top: 85px;
+	left: 330px;
+	font-size: 20px;
+	width: 440px;
+	height: 77px;
+	line-height: 26px;
+
+}
+/*-------------------*/
+
+.content2Info2 p{
+	left: 62px;
+	top: 377px;
+	position: absolute;
+	font-size: 40px;
+	color: white;
+	width: 292px;
+	height: 55px;
+}
+.content2Info2 img:nth-child(2){
+	left:384px;
+	top: 300px; 
+	position: absolute;
+}
+
+.content2Info2 img:nth-child(3){
+	left: 648px;
+	top: 300px; 
+	position: absolute;
+
+}
+/*-----------------*/
+
+.content2Info3 img{
+	top: 586px;
+	left: 74px;
+	position: absolute;
+}
+.content2Info3 p{
+	
+	position: absolute;
+}
+
+.content2Info3 p:nth-child(2) {
+	color: white;
+	font-size: 44px;
+	top: 658px;
+	left: 629px;
+
+}
+.content2Info3 p:nth-child(3) {
+	color: white;
+	font-size: 20px;
+	top: 760px;
+	left: 591px;
+	width: 264px;
+	height: 155px;
+
+}
+/*----------------------*/
+.content2Info4 p{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+}
+
+.content2Info4 p:nth-child(1){
+	top: 1116px;
+	left: 322px;
+}
+
+.content2Info4 p:nth-child(2){
+	top: 1176px;
+	left: 181px;
+}
+/*-----------------------*/
+
+.content2Info5 img{
+	position: absolute;
+	top: 1271px;
+}
+
+.content2Info5 img:nth-child(1){
+	left: 82px;
+}
+
+.content2Info5 img:nth-child(2){
+	left: 535px;
+}
+/*-----------content 3-------------*/
+#aboutContent3 {
+	width: 960px;
+	height: 523px;
+	background-color: white;
+	position: relative;
+}
+
+#aboutContent3 img,#aboutContent3 h2,#aboutContent3 p,.content3_lines img{
+	position: absolute;
+}
+/*-----------------*/
+#aboutContent3 h2{
+	font-size: 44px;
+	top: 37px;
+	left: 367px;
+}
+
+.content3_img img:nth-child(1){
+	top: 104px;
+	left: 139px;
+}
+
+
+.content3_img img:nth-child(2){
+	top: 121px;
+	left: 700px;
+}
 
 
 
+.content3_img img:nth-child(3){
+	top:286px ;
+	left:139px ;
+}
 
 
+.content3_img img:nth-child(4){
+	top: 286px;
+	left:695px ;
+}
 
 
+.content3_img img:nth-child(5){
+	top: 140px;
+	left: 444px;
+}
+/*--------------------------*/
+.content3_text p:nth-child(1){
+	top: 229px;
+	left:170px ;
+}
+.content3_text p:nth-child(2){
+	top: 229px;
+	left: 746px;
+}
 
+.content3_text p:nth-child(3){
+	top: 435px;
+	left:166px;
+}
 
+.content3_text p:nth-child(4){
+	top: 435px;
+	left:746px ;
+}
+/*-------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.content3_lines img:nth-child(1){
+	transform: rotate(-0.2turn);
+	top:151px ;
+	left:260px ;
+}
+.content3_lines img:nth-child(2){
+	transform: rotate(0.2turn);
+	top: 151px;
+	left: 697px;
+}
+.content3_lines img:nth-child(3){
+	transform: rotate(-0.4turn);
+	top: ;
+	left: ;
+}
+.content3_lines img:nth-child(4){
+	transform: rotate(0.8turn);
+	top: ;
+	left: ;
+}
 
 
 /*--------------------------------------------------About page end-------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*----------========================================Products page ==================================---------------------*/
 
@@ -524,6 +793,20 @@ nav ul li a{
 /*----------------*/
 
 /*----------==================Products page end ===================------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*----------==================Advertisements page start ===================---------------------*/
@@ -744,50 +1027,16 @@ nav ul li a{
 /*--------------------  banner 3 ----------------------*/
 /*--------------------  banner 3 end  ----------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*----------==================Advertisements page end ===================---------------------*/
+
+
+
+
+
+
+
+
+
 
 
 
@@ -982,7 +1231,7 @@ nav ul li a{
 	margin-top: 27px;
 }
 
-#inputEmail, #inputAddress{
+.inputEmail, .inputAddress{
 	width: 328.5px;
 	border-top-width: 0px;
 	border-left-width: 0px;
@@ -992,7 +1241,7 @@ nav ul li a{
 	font-size: 18px;
 }
 
-#inputName,#inputAge{
+.inputName,.inputAge{
 	width: 148px;
 	border-top-width: 0px;
 	border-left-width: 0px;
@@ -1150,10 +1399,10 @@ span{
 
 .form2Bottom_left{
 	float: left;
-	margin-left: 10px;
+	margin-left: 30px;
 }
 
-.inputCity, .inputStreet, .inputPostcode{
+#inputCity, #inputStreet, #inputPostcode{
 	width: 149px;
 	height: 36px;
 	border-radius:18px;
@@ -1278,37 +1527,6 @@ footer{
 
 
 /*-------------------------------- contact page end ---------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
