@@ -1245,7 +1245,7 @@ span{
 
 }
 .form2Title{
-	margin-left: 166px;
+	margin-left: 174px;
 	margin-top: 52px;
 }
 
@@ -1259,7 +1259,7 @@ span{
 	width: 369px;
 	height: 78px;
 	margin-top: 20px;
-	margin-left: 67px;
+	margin-left: 78px;
 
 }
 
@@ -1281,7 +1281,7 @@ span{
 
 /*phone icon*/
 .icon_phone{
-	margin-left:33px;
+	margin-left:48px;
 }
 
 
@@ -1293,7 +1293,7 @@ span{
 
 
 .icon_wifi{
-	margin-left: 33px;
+	margin-left: 44px;
 }
 
 
@@ -1337,7 +1337,9 @@ span{
 
 .form2Bottom_left{
 	float: left;
-	margin-left: 30px;
+	margin-left: 26px;
+	width: 150px;
+	height: 217px;
 }
 
 #inputCity, #inputStreet, #inputPostcode{
