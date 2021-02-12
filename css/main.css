@@ -93,6 +93,12 @@ nav ul li a{
 
 /*------------------------------------------- This is for HOME page --------------------------------------------------------*/
 
+
+
+
+
+
+
 #homeContainer{
 	width: 960px;
 	height: auto;
@@ -141,21 +147,22 @@ nav ul li a{
 	margin-top: 200px;
 
 }
-.button_1{
+.button1{
 	width: 205px;
 	height: 52px;
 	background-color: #CF0A2C;
 	text-align: center;
 	margin-left: 620px;
-	
-}
-
-.button_1 a{
-
+	font-family: 'bud_boldregular';
+	border:none;
 	font-size: 20px;
 	color: white;
 	line-height: 52px;
 	text-decoration: none;
+	transition: ease-out 0.4s;
+}
+.button1:hover {
+  box-shadow: inset 400px 0 0 0 #D80286;
 }
 
 /*-------------*/
