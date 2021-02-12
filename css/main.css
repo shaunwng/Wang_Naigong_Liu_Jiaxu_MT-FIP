@@ -310,9 +310,9 @@ nav ul li a{
 
 #aboutHero a{
 	position: absolute;
-	top: 448px;
-	left: 725px;
-	width: 153px;
+	top: 352px;
+	left: 540px;
+	width: 175px;
 	height: 60px;
 	border-radius: 30px;
 	background-color: #13294B;
@@ -404,7 +404,7 @@ nav ul li a{
 .content2Info1 p:nth-child(3) {
 	color: white;
 	top: 85px;
-	left: 330px;
+	left: 388px;
 	font-size: 20px;
 	width: 440px;
 	height: 77px;
@@ -475,22 +475,22 @@ nav ul li a{
 }
 
 .content2Info4 p:nth-child(2){
-	top: 1176px;
-	left: 181px;
+	top: 1174px;
+	left: 178px;
 }
 /*-----------------------*/
 
 .content2Info5 img{
 	position: absolute;
-	top: 1271px;
+	top: 1270px;
 }
 
 .content2Info5 img:nth-child(1){
-	left: 82px;
+	left: 67px;
 }
 
 .content2Info5 img:nth-child(2){
-	left: 535px;
+	left: 533px;
 }
 /*-----------content 3-------------*/
 #aboutContent3 {
@@ -505,9 +505,9 @@ nav ul li a{
 }
 /*-----------------*/
 #aboutContent3 h2{
-	font-size: 44px;
-	top: 37px;
-	left: 367px;
+	font-size: 42px;
+	top: 36px;
+	left: 368px;
 }
 
 .content3_img img:nth-child(1){
@@ -536,8 +536,8 @@ nav ul li a{
 
 
 .content3_img img:nth-child(5){
-	top: 140px;
-	left: 444px;
+	top: 133px;
+	left: 448px;
 }
 /*--------------------------*/
 .content3_text p:nth-child(1){
@@ -562,8 +562,8 @@ nav ul li a{
 
 .content3_lines img:nth-child(1){
 	transform: rotate(-0.2turn);
-	top:151px ;
-	left:260px ;
+	top:100px ;
+	left:350px ;
 }
 .content3_lines img:nth-child(2){
 	transform: rotate(0.2turn);
