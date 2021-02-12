@@ -561,24 +561,24 @@ nav ul li a{
 /*-------------------------*/
 
 .content3_lines img:nth-child(1){
-	transform: rotate(-0.2turn);
-	top:100px ;
-	left:350px ;
+	
+	top:152px ;
+	left:259px ;
 }
 .content3_lines img:nth-child(2){
-	transform: rotate(0.2turn);
-	top: 151px;
-	left: 697px;
+	
+	top: 165px;
+	left: 513px;
 }
 .content3_lines img:nth-child(3){
-	transform: rotate(-0.4turn);
-	top: ;
-	left: ;
+
+	top:272px ;
+	left:257px ;
 }
 .content3_lines img:nth-child(4){
-	transform: rotate(0.8turn);
-	top: ;
-	left: ;
+	
+	top:271px ;
+	left: 531px;
 }
 
 
