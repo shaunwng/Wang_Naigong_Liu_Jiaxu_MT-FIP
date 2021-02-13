@@ -401,7 +401,32 @@ nav ul li a{
 	left: 459px;
 }
 
-/*-----------------------*/
+
+/*----beer bottle animation----------*/
+
+      .beer_model1{
+      animation: move 2s ease-in-out infinite alternate;
+      }
+
+
+      @keyframes move{
+        from{
+              transform: rotateZ(-5deg);
+        }
+
+        to{
+              transform: rotateZ(5deg);
+        }
+      }
+
+
+
+
+
+
+
+
+/*---------------------------------------*/
 
 
 #aboutContent2{
