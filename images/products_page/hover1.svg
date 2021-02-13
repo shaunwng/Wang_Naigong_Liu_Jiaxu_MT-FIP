@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102.498" height="87.204" viewBox="0 0 102.498 87.204"><defs><style>.a{opacity:0.715;fill:url(#a);}</style><linearGradient id="a" x1="0.086" y1="1.085" x2="0.655" y2="0.632" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#f44336"/><stop offset="1" stop-color="#2196f3" stop-opacity="0.796"/></linearGradient></defs><path class="a" d="M54.173-17.19c25.519,0,44.146,33.631,44.146,61.877S69.415,69.92,43.9,69.92-4.178,61.777-4.178,33.531,28.654-17.19,54.173-17.19Z" transform="translate(4.178 17.19)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102.498" height="87.204" viewBox="0 0 102.498 87.204">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.086" y1="1.085" x2="0.655" y2="0.632" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f44336"/>
+      <stop offset="1" stop-color="#2196f3" stop-opacity="0.796"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_54" data-name="Path 54" d="M54.173-17.19c25.519,0,44.146,33.631,44.146,61.877S69.415,69.92,43.9,69.92-4.178,61.777-4.178,33.531,28.654-17.19,54.173-17.19Z" transform="translate(4.178 17.19)" opacity="0.715" fill="url(#linear-gradient)"/>
+</svg>

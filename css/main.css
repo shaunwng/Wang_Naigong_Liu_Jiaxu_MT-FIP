@@ -411,29 +411,29 @@ nav ul li a{
 	background: url("../images/about_page/bgc1.png");
 }
 
-.content2Info1,.content2Info2,.content2Info3,.content2Info4，.content2Info5 {
+.content2_Info1,.content2_Info2,.content2_Info3,.content2_Info4，.content2_Info5 {
 	
 	position: absolute;
 }
 /*-------------------*/
 
-.content2Info1 img{
+.content2_Info1 img{
 	left: 74px;
 	position: absolute;
 }
-.content2Info1 p{
+.content2_Info1 p{
 	margin-left: 74px;
 	position: absolute;
 }
 
-.content2Info1 p:nth-child(2) {
+.content2_Info1 p:nth-child(2) {
 	color: white;
 	left: 542px;
 	top: 32px;
 	font-size: 44px;
 
 }
-.content2Info1 p:nth-child(3) {
+.content2_Info1 p:nth-child(3) {
 	color: white;
 	top: 85px;
 	left: 388px;
@@ -445,7 +445,7 @@ nav ul li a{
 }
 /*-------------------*/
 
-.content2Info2 p{
+.content2_Info2 p{
 	left: 62px;
 	top: 377px;
 	position: absolute;
@@ -454,13 +454,13 @@ nav ul li a{
 	width: 292px;
 	height: 55px;
 }
-.content2Info2 img:nth-child(2){
+.content2_Info2 img:nth-child(2){
 	left:384px;
 	top: 300px; 
 	position: absolute;
 }
 
-.content2Info2 img:nth-child(3){
+.content2_Info2 img:nth-child(3){
 	left: 648px;
 	top: 300px; 
 	position: absolute;
@@ -468,24 +468,24 @@ nav ul li a{
 }
 /*-----------------*/
 
-.content2Info3 img{
+.content2_Info3 img{
 	top: 586px;
 	left: 74px;
 	position: absolute;
 }
-.content2Info3 p{
+.content2_Info3 p{
 	
 	position: absolute;
 }
 
-.content2Info3 p:nth-child(2) {
+.content2_Info3 p:nth-child(2) {
 	color: white;
 	font-size: 44px;
 	top: 658px;
 	left: 629px;
 
 }
-.content2Info3 p:nth-child(3) {
+.content2_Info3 p:nth-child(3) {
 	color: white;
 	font-size: 20px;
 	top: 760px;
@@ -495,33 +495,33 @@ nav ul li a{
 
 }
 /*----------------------*/
-.content2Info4 p{
+.content2_Info4 p{
 	position: absolute;
 	color: white;
 	font-size: 40px;
 }
 
-.content2Info4 p:nth-child(1){
+.content2_Info4 p:nth-child(1){
 	top: 1116px;
 	left: 322px;
 }
 
-.content2Info4 p:nth-child(2){
+.content2_Info4 p:nth-child(2){
 	top: 1174px;
 	left: 178px;
 }
 /*-----------------------*/
 
-.content2Info5 img{
+.content2_Info5 img{
 	position: absolute;
 	top: 1270px;
 }
 
-.content2Info5 img:nth-child(1){
+.content2_Info5 img:nth-child(1){
 	left: 67px;
 }
 
-.content2Info5 img:nth-child(2){
+.content2_Info5 img:nth-child(2){
 	left: 533px;
 }
 /*-----------content 3-------------*/
@@ -701,9 +701,79 @@ nav ul li a{
 	height: 151px;
 }
 
+/*--------------- for slide in -----------*/
 
 
+.heroHover1{
+  animation: slidein 5s ease-in-out;
+}
 
+@keyframes slidein {
+  0% {
+  	left: 0;
+  }
+
+  100%{
+	left: 100;
+  }
+}
+
+.heroHover2{
+  animation: slidein 5s ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+  	left: 0;
+  }
+
+  100%{
+	left: 100;
+  }
+}
+
+.heroHover3{
+  animation: slidein 5s ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+  	left: 0;
+  }
+
+  100%{
+	left: 100;
+  }
+}
+
+
+.heroHover4{
+  animation: slidein 5s ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+  	left: 0;
+  }
+
+  100%{
+	left: 100;
+  }
+}
+
+.heroHover5{
+  animation: slidein 5s ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+  	left: 0;
+  }
+
+  100%{
+	left: 100;
+  }
+}
 
 
 /*------------ hero end---------*/
@@ -1596,7 +1666,7 @@ span{
 
 }
 
-.contactForm2Icon > div{
+.contactForm2Icon div{
 	float: left;
 }
 
@@ -1606,41 +1676,37 @@ span{
 }
 
 /*location icon*/
-.icon_location object{
-	margin-left: 15px;
-	margin-bottom: 15px;
+.icon_location{
+	width: 72px;
+	height: 92px;
+	margin-right: 47px;
 }
-
 
 /*phone icon*/
-.icon_phone{
-	margin-left:48px;
+
+.icon_phone {
+	width: 109px;
+	height: 92px;
+	margin-right: 36px;
 }
-
-
 .icon_phone object{
-	margin-left: 30px;
-	margin-bottom: 20px;
+	margin-left: 17px; 
 }
+
 /*wifi icon*/
-
-
 .icon_wifi{
-	margin-left: 44px;
+	width: 50px;
+	height: 92px;
 }
-
-
-.icon_wifi object{
-	margin-bottom: 12px;
-}
-
 .icon_wifi p{
-	text-align: center;
+	margin-left: 20px;
 }
 
+.icon_location object,.icon_phone object,.icon_wifi object{
+	margin-bottom: 23px;
+}
 
-
-
+/*------------------------*/
 
 .form2Bottom{
 	width: 385px;
@@ -1742,36 +1808,20 @@ span{
 /*----- svg icon animation---------*/
 
 
-#Aquarius:hover {cursor: pointer;filter: invert(1);}
+
+/*more animaiton were write into svg file*/
 
 
-
-.icon_location object:hover{cursor: pointer;filter: invert(1);
+.icon_location object:hover{cursor: pointer;filter: invert(0.9);
 
 }
 
+.icon_phone object:hover{cursor: pointer;filter: invert(0.6);
 
+}
+.icon_wifi object:hover{cursor: pointer;filter: invert(0.9);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /*---------- contact form 2 end ----------*/
 
