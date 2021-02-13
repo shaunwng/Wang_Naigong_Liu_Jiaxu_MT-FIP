@@ -159,10 +159,13 @@ nav ul li a{
 	color: white;
 	line-height: 52px;
 	text-decoration: none;
-	transition: ease-out 0.4s;
+	transition: ease-in-out 0.6s;
 }
 .button1:hover {
-  box-shadow: inset 400px 0 0 0 #D80286;
+		border-radius:10px;
+  		box-shadow: inset 0px 0 0 0 #cf0a2c, 
+  					inset 90px 0 0 0 #cf0a2c, 
+            		inset 205px 0 0 0 #13294b;
 }
 
 /*-------------*/
@@ -176,24 +179,31 @@ nav ul li a{
 	margin-top: 46px;
 
 }
-.button_2{
+.button2{
 	width: 205px;
 	height: 50px;
 	background-color: #CF0A2C;
 	text-align: center;
 	margin-left:620px;
 	margin-top: 160px;
-	
-}
-
-.button_2 a{
-
+	font-family: 'bud_boldregular';
+	border:none;
 	font-size: 20px;
 	color: white;
-	line-height: 52px;
+	line-height: 50px;
 	text-decoration: none;
-	
+	transition: ease-in-out 0.6s;
+
 }
+
+.button2:hover {
+		border-radius:30px;
+		color: #CF0A2C;
+  		box-shadow: inset -205px 0 0 0 #13294b,
+    				inset 205px 0 0 0 #13294b;
+}
+
+
 
 /*--------------*/
 #homeContent3 h3{
@@ -204,25 +214,29 @@ nav ul li a{
 	margin-top: 70px;
 
 }
-.button_3{
+.button3{
 	width: 205px;
 	height: 50px;
 	background-color: #CF0A2C;
 	text-align: center;
 	margin-left:64px;
 	margin-top: 105px;
-	
-}
-
-.button_3 a{
-
 	font-size: 20px;
 	color: white;
-	line-height: 52px;
+	line-height: 50px;
 	text-decoration: none;
-	
+	font-family: 'bud_boldregular';
+	border:none;
+	transition: ease-in-out 0.6s;
 }
+	
 
+.button3:hover{
+	border-radius:30px; 
+	color: #13294b;
+	box-shadow: 0 0 0 10px #13294b;
+	transform: translate(0, -10px);
+}	
 
 
 
@@ -267,6 +281,7 @@ nav ul li a{
 	text-align: center;
 	margin-left:7px;
 	display: inline-block;
+
 	
 }
 
@@ -280,6 +295,7 @@ nav ul li a{
 
 .homepageSign input::placeholder{
   color: #CF0A2C;
+  font-family: 'bud_boldregular';
 }
 /*------------------------------------------------- HOME page end -----------------------------------------------------------*/
 
@@ -315,7 +331,7 @@ nav ul li a{
 	position: relative;
 }
 
-#aboutHero a{
+.heroButton{
 	position: absolute;
 	top: 352px;
 	left: 540px;
@@ -328,8 +344,17 @@ nav ul li a{
 	line-height: 60px;
 	text-align: center;
 	text-decoration: none;
-
+	border:none;
+	transition: ease-in-out 0.6s;
+	filter: brightness(80%);
 }
+.heroButton:hover{
+	color: #CF0A2C;
+	filter: brightness(200%);
+	transform: scale(1.5);
+}
+
+
 
 /*--------------------*/
 
@@ -833,9 +858,9 @@ nav ul li a{
 	margin-right: 50px;
 }
 
-/*----------------*/
+/*-------  for button ---------*/
 
-.products_button{
+.products_button1{
 	width: 122px;
 	height: 46px;
 	border-radius: 21px;
@@ -846,9 +871,84 @@ nav ul li a{
 	text-decoration: none;
 	margin-left: 450px;
 	margin-top: 35px;
+	transition: ease-in-out 0.6s;
+}
+.products_button1:hover {
+		border-radius:10px;
+  		box-shadow:  inset 205px 0 0 0 #004B97;
+  		color: #CF0A2C;
+
 }
 
 
+.products_button2{
+	width: 122px;
+	height: 46px;
+	border-radius: 21px;
+	background-color: #13294B;
+	text-align: center;
+	color: white;
+	line-height: 46px;
+	text-decoration: none;
+	margin-left: 450px;
+	margin-top: 35px;
+	transition: ease-in-out 0.6s;
+}
+
+.products_button2:hover {
+		border-radius:10px;
+  		box-shadow:  inset 205px 0 0 0 #E7C1FF;
+  		color: #CF0A2C;
+
+}
+
+
+
+
+
+.products_button3{
+	width: 122px;
+	height: 46px;
+	border-radius: 21px;
+	background-color: #13294B;
+	text-align: center;
+	color: white;
+	line-height: 46px;
+	text-decoration: none;
+	margin-left: 450px;
+	margin-top: 35px;
+	transition: ease-in-out 0.6s;
+}
+
+.products_button3:hover {
+		border-radius:10px;
+  		box-shadow:  inset 205px 0 0 0 #FEBF00;
+  		color: #CF0A2C;
+
+}
+
+
+
+.products_button4{
+	width: 122px;
+	height: 46px;
+	border-radius: 21px;
+	background-color: #13294B;
+	text-align: center;
+	color: white;
+	line-height: 46px;
+	text-decoration: none;
+	margin-left: 450px;
+	margin-top: 35px;
+	transition: ease-in-out 0.6s;
+}
+
+.products_button4:hover {
+		border-radius:10px;
+  		box-shadow:  inset 205px 0 0 0 #1CA066;
+  		color: #CF0A2C;
+
+}
 
 
 /*----------------*/
@@ -896,7 +996,7 @@ nav ul li a{
 	font-size: 46px;
 	color: white;
 	position: absolute;
-	top: 254px;
+	top: 347px;
 	left: 243px;
 }
 
@@ -979,9 +1079,57 @@ nav ul li a{
 	box-shadow: 1px 3px 7px rgba(0, 0, 0, .2);
 	top: 301px;
 	left: 286px;
+	animation:scale 2s infinite ease-in-out;;
+}
 
+
+@keyframes scale{
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+
+
+  }
 
 }
+/*------------------------*/
+
+#ads_banner3{
+	width: 960px;
+	height: 416px;
+	position: relative;
+
+}
+.banner3Button{
+	position: absolute;
+	top: 286px;
+	left: 540px;
+	width: 175px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #13294B;
+	color: white;
+	font-size: 22px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	border:none;
+	transition: ease-in-out 0.6s;
+	filter: brightness(80%);
+}
+.banner3Button:hover{
+	color: #CF0A2C;
+	filter: brightness(200%);
+	transform: scale(1.5);
+}
+
+
+
 /*-----------------------*/
 
 
@@ -998,9 +1146,6 @@ nav ul li a{
 	width: 398px;
 	height: 762px;
 }
-.banner4_left img:nth-child(2){
-	margin-top: 13px;
-}
 
 
 
@@ -1009,9 +1154,6 @@ nav ul li a{
 	margin-top: 35px;
 	width: 256px;
 	height: 762px;
-}
-.banner4_mid img:nth-child(2){
-	margin-top: 15px;
 }
 
 
@@ -1023,10 +1165,135 @@ nav ul li a{
 	height: 762px;
 }
 
-.banner4_right img:nth-child(2){
+.rightTop {
+	width: 210px;
+	height: 236px;
+}
+.rightBottom{
+	width: 210px;
+	height: 505px;
+
+}
+
+.leftTop,.leftBottom,.midTop,.midBottom,.rightTop,.rightBottom {
+  position: relative;
+}
+
+.hoverText{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: ease-in-out 0.6s;
+	background: rgb(207,10,44);
+	background: linear-gradient(123deg, rgba(207,10,44,1) 6%, rgba(19,41,75,1) 54%);
+}
+
+.overlay{
+	position: absolute;	
+	font-size: 28px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;	
+}
+
+
+.leftTop:hover .hoverText{
+	opacity: 90%;
+}
+
+.leftBottom:hover .hoverBottom1{
+	opacity: 90%;
+}
+
+
+.midTop:hover .hoverText{
+	opacity: 90%;
+}
+
+.midBottom:hover .hoverBottom2{
+	opacity: 90%;
+}
+
+
+.rightTop:hover .hoverText{
+	opacity: 90%;
+}
+
+.rightBottom:hover .hoverBottom3{
+	opacity: 90%;
+}
+
+/*------ set margin for img*/
+
+
+.leftBottom img{
+	margin-top: 13px;
+}
+
+
+.midBottom img{
+	margin-top: 15px;
+}
+
+.rightBottom img{
 	margin-top: 21px;
 }
 
+
+
+/*---- correct bottom overlay position*/
+
+.hoverBottom1{
+	position: absolute;
+	top: 13px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 351px;
+	width: 100%;
+	opacity: 0;
+	transition: ease-in-out 0.6s;
+	background: rgb(207,10,44);
+	background: linear-gradient(123deg, rgba(207,10,44,1) 6%, rgba(19,41,75,1) 54%);
+}
+
+
+
+.hoverBottom2{
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 276px;
+	width: 100%;
+	opacity: 0;
+	transition: ease-in-out 0.6s;
+	background: rgb(207,10,44);
+	background: linear-gradient(123deg, rgba(207,10,44,1) 6%, rgba(19,41,75,1) 54%);
+}
+
+
+.hoverBottom3{
+	position: absolute;
+	top: 21px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 505px;
+	width: 100%;
+	opacity: 0;
+	transition: ease-in-out 0.6s;
+	background: rgb(207,10,44);
+	background: linear-gradient(123deg, rgba(207,10,44,1) 6%, rgba(19,41,75,1) 54%);
+}
 
 
 
@@ -1471,6 +1738,38 @@ span{
 	line-height: 36px;
 
 }
+
+/*----- svg icon animation---------*/
+
+
+#Aquarius:hover {cursor: pointer;filter: invert(1);}
+
+
+
+.icon_location object:hover{cursor: pointer;filter: invert(1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
