@@ -1702,8 +1702,12 @@ span{
 	margin-left: 20px;
 }
 
-.icon_location object,.icon_phone object,.icon_wifi object{
+.icon_location object,.icon_phone object{
 	margin-bottom: 23px;
+}
+
+.icon_wifi object{
+	margin-bottom: 20px;
 }
 
 /*------------------------*/
