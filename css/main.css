@@ -1,0 +1,1912 @@
+
+@font-face {
+    font-family: 'bud_boldregular';
+    src: url('../fonts/bud_bold-webfont.woff2') format('woff2'),
+         url('../fonts/bud_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.hidden{
+	display: none;
+}
+html{
+	background: rgb(19,41,75);
+background: linear-gradient(148deg, rgba(19,41,75,0.9878326330532213) 8%, rgba(207,10,44,1) 52%, rgba(19,41,75,1) 96%);
+}
+
+body{
+	font-family: 'bud_boldregular',Arial, serif;
+}
+
+/*----------for header ----------*/
+
+header{
+	width: 960px;
+	height: 91px;
+	background-color: black;
+
+}
+
+#logo{
+	width: 200px;
+	height: 91px;
+	float: left;
+	margin-top: 13px;
+	margin-left: 16px;
+}
+
+
+nav{
+	width: 608px;
+	height: 26px;
+	float: left;
+	margin-left: 135px;
+
+
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 91px;
+	margin-left: 19px;
+
+}
+
+.onPage{
+	text-decoration: underline;
+	text-decoration-color: #CF0A2C;
+	text-decoration-thickness: 3px;
+}
+/*---------- header end ----------*/
+/*---------- for nav underline hover ---------*/
+.selected{
+	position: relative;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.selected:before{
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -2px;
+	width: 0;
+	height: 2px;
+	background: #CF0A2C;
+	transition: all .3s;
+}
+.selected:hover:before{
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+/*---------- nav hover end ----------*/
+
+
+/*------------------------------------------- This is for HOME page --------------------------------------------------------*/
+
+
+
+
+
+
+
+#homeContainer{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: rgb(207,10,44);
+	background: linear-gradient(148deg, rgba(207,10,44,1) 0%, rgba(19,41,75,1) 68%);
+	justify-content: center;
+	align-items: center;
+}
+
+#homeContent1,#homeContent2,#homeContent3,#homeContent4{
+	margin-bottom: 31px;
+}
+
+
+#homeContent1{
+	width: 860px;
+	height: 361px;
+	margin-top: 31px;
+	background-image: url("../images/index_page/beer_bar.png");
+}
+
+#homeContent2{
+	width: 860px;
+	height: 361px;
+	background-image: url("../images/index_page/car.png");
+}
+#homeContent3{
+	width: 860px;
+	height: 361px;
+	background-image: url("../images/index_page/stage.png");
+}
+#homeContent4{
+	width: 862px;
+	height: 377px;
+	background-image: url("../images/index_page/homebanner_4.png");
+}
+
+#homeContent1 h3{
+	font-size: 83px;
+	-webkit-text-stroke: 3px #fff; 
+	-webkit-text-fill-color: transparent;
+	margin-left: 77px;
+	margin-top: 200px;
+
+}
+.button1{
+	width: 205px;
+	height: 52px;
+	background-color: #CF0A2C;
+	text-align: center;
+	margin-left: 620px;
+	font-family: 'bud_boldregular';
+	border:none;
+	font-size: 20px;
+	color: white;
+	line-height: 52px;
+	text-decoration: none;
+	transition: ease-in-out 0.6s;
+}
+.button1:hover {
+		border-radius:10px;
+  		box-shadow: inset 0px 0 0 0 #cf0a2c, 
+  					inset 90px 0 0 0 #cf0a2c, 
+            		inset 205px 0 0 0 #13294b;
+}
+
+/*-------------*/
+
+
+#homeContent2 h3{
+	font-size: 83px;
+	-webkit-text-stroke: 3px #fff; 
+	-webkit-text-fill-color: transparent;
+	margin-left: 77px;
+	margin-top: 46px;
+
+}
+.button2{
+	width: 205px;
+	height: 50px;
+	background-color: #CF0A2C;
+	text-align: center;
+	margin-left:620px;
+	margin-top: 160px;
+	font-family: 'bud_boldregular';
+	border:none;
+	font-size: 20px;
+	color: white;
+	line-height: 50px;
+	text-decoration: none;
+	transition: ease-in-out 0.6s;
+
+}
+
+.button2:hover {
+		border-radius:30px;
+		color: #CF0A2C;
+  		box-shadow: inset -205px 0 0 0 #13294b,
+    				inset 205px 0 0 0 #13294b;
+}
+
+
+
+/*--------------*/
+#homeContent3 h3{
+	font-size: 83px;
+	-webkit-text-stroke: 3px #fff; 
+	-webkit-text-fill-color: transparent;
+	margin-left: 220px;
+	margin-top: 70px;
+
+}
+.button3{
+	width: 205px;
+	height: 50px;
+	background-color: #CF0A2C;
+	text-align: center;
+	margin-left:64px;
+	margin-top: 105px;
+	font-size: 20px;
+	color: white;
+	line-height: 50px;
+	text-decoration: none;
+	font-family: 'bud_boldregular';
+	border:none;
+	transition: ease-in-out 0.6s;
+}
+	
+
+.button3:hover{
+	border-radius:30px; 
+	color: #13294b;
+	box-shadow: 0 0 0 10px #13294b;
+	transform: translate(0, -10px);
+}	
+
+
+
+
+
+/*---------------*/
+
+
+
+#homeContent4 h3{
+	font-size: 83px;
+	-webkit-text-stroke: 3px #fff; 
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	margin-top: 80px;
+}
+
+#homeContent4 h4{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 38px;
+}
+
+
+.homepageSign{
+
+	margin-top: 54px;
+	margin-left: 240px;
+}
+
+.inputhomeArea{
+	width: 261px;
+	height: 41px;
+	display: inline-block;
+}
+
+.button_4{
+	width: 114px;
+	height: 45px;
+	background-color: #CF0A2C;
+	text-align: center;
+	margin-left:7px;
+	display: inline-block;
+
+	
+}
+
+.button_4 a{
+
+	font-size: 15px;
+	color: white;
+	line-height: 45px;
+	text-decoration: none;	
+}
+
+.homepageSign input::placeholder{
+  color: #CF0A2C;
+  font-family: 'bud_boldregular';
+}
+/*------------------------------------------------- HOME page end -----------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------- About page ------------------------------------------------------------*/
+
+#aboutContainer{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: rgb(207,10,44);
+	background: linear-gradient(148deg, rgba(207,10,44,1) 0%, rgba(19,41,75,1) 68%);
+	justify-content: center;
+	align-items: center;
+}
+/*-----------------------*/
+
+#aboutHero{
+	width: 960px;
+	height: 542px;
+	position: relative;
+}
+
+.heroButton{
+	position: absolute;
+	top: 352px;
+	left: 540px;
+	width: 175px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #13294B;
+	color: white;
+	font-size: 22px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	border:none;
+	transition: ease-in-out 0.6s;
+	filter: brightness(80%);
+}
+.heroButton:hover{
+	color: #CF0A2C;
+	filter: brightness(200%);
+	transform: scale(1.5);
+}
+
+
+
+/*--------------------*/
+
+#aboutContent1{
+	width: 960px;
+	height: 520px;
+	background-color: white;
+	position: relative;
+}
+
+#aboutContent1 img{
+	position: absolute;
+}
+
+#aboutContent1 img:nth-child(2){
+	top: 230px;
+}
+
+#aboutContent1 img:nth-child(3){
+	top: 90px;
+	left: 124px;
+}
+#aboutContent1 img:nth-child(4){
+	top: 105px;
+	left: 160px;
+}
+
+
+/*-------------------*/
+.a_content1Text p{
+	position: absolute;
+	width: 429px;
+}
+
+.a_content1Text p:nth-child(1){
+	font-size: 44px;
+	top: 63px;
+	left: 602px;
+}
+
+.a_content1Text p:nth-child(2){
+	font-size: 20px;
+	top: 118px;
+	left: 459px;
+}
+
+
+/*----beer bottle animation----------*/
+
+      .beer_model1{
+      animation: move 2s ease-in-out infinite alternate;
+      }
+
+
+      @keyframes move{
+        from{
+              transform: rotateZ(-5deg);
+        }
+
+        to{
+              transform: rotateZ(5deg);
+        }
+      }
+
+
+
+
+/*---------------------------------------*/
+
+
+#aboutContent2{
+	position: relative;
+	height: 1613px;
+	width: 960px;
+	background: url("../images/about_page/bgc1.png");
+}
+
+.content2_Info1,.content2_Info2,.content2_Info3,.content2_Info4，.content2_Info5 {
+	
+	position: absolute;
+}
+/*-------------------*/
+
+.content2_Info1 img{
+	left: 74px;
+	position: absolute;
+}
+.content2_Info1 p{
+	margin-left: 74px;
+	position: absolute;
+}
+
+.content2_Info1 p:nth-child(2) {
+	color: white;
+	left: 542px;
+	top: 32px;
+	font-size: 44px;
+
+}
+.content2_Info1 p:nth-child(3) {
+	color: white;
+	top: 85px;
+	left: 388px;
+	font-size: 20px;
+	width: 440px;
+	height: 77px;
+	line-height: 26px;
+
+}
+/*-------------------*/
+
+.content2_Info2 p{
+	left: 62px;
+	top: 377px;
+	position: absolute;
+	font-size: 40px;
+	color: white;
+	width: 292px;
+	height: 55px;
+}
+.content2_Info2 img:nth-child(2){
+	left:384px;
+	top: 300px; 
+	position: absolute;
+}
+
+.content2_Info2 img:nth-child(3){
+	left: 648px;
+	top: 300px; 
+	position: absolute;
+
+}
+/*-----------------*/
+
+.content2_Info3 img{
+	top: 586px;
+	left: 74px;
+	position: absolute;
+}
+.content2_Info3 p{
+	
+	position: absolute;
+}
+
+.content2_Info3 p:nth-child(2) {
+	color: white;
+	font-size: 44px;
+	top: 658px;
+	left: 629px;
+
+}
+.content2_Info3 p:nth-child(3) {
+	color: white;
+	font-size: 20px;
+	top: 760px;
+	left: 591px;
+	width: 264px;
+	height: 155px;
+
+}
+/*----------------------*/
+.content2_Info4 p{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+}
+
+.content2_Info4 p:nth-child(1){
+	top: 1116px;
+	left: 322px;
+}
+
+.content2_Info4 p:nth-child(2){
+	top: 1174px;
+	left: 178px;
+}
+/*-----------------------*/
+
+.content2_Info5 img{
+	position: absolute;
+	top: 1270px;
+}
+
+.content2_Info5 img:nth-child(1){
+	left: 67px;
+}
+
+.content2_Info5 img:nth-child(2){
+	left: 533px;
+}
+/*-----------content 3-------------*/
+#aboutContent3 {
+	width: 960px;
+	height: 523px;
+	background-color: white;
+	position: relative;
+}
+
+#aboutContent3 img,#aboutContent3 h2,#aboutContent3 p,.content3_lines img{
+	position: absolute;
+}
+/*-----------------*/
+#aboutContent3 h2{
+	font-size: 42px;
+	top: 36px;
+	left: 368px;
+}
+
+.content3_img img:nth-child(1){
+	top: 104px;
+	left: 139px;
+}
+
+
+.content3_img img:nth-child(2){
+	top: 121px;
+	left: 700px;
+}
+
+
+
+.content3_img img:nth-child(3){
+	top:286px ;
+	left:139px ;
+}
+
+
+.content3_img img:nth-child(4){
+	top: 286px;
+	left:695px ;
+}
+
+
+.content3_img img:nth-child(5){
+	top: 133px;
+	left: 448px;
+}
+/*--------------------------*/
+.content3_text p:nth-child(1){
+	top: 229px;
+	left:170px ;
+}
+.content3_text p:nth-child(2){
+	top: 229px;
+	left: 746px;
+}
+
+.content3_text p:nth-child(3){
+	top: 435px;
+	left:166px;
+}
+
+.content3_text p:nth-child(4){
+	top: 435px;
+	left:746px ;
+}
+/*-------------------------*/
+
+.content3_lines img:nth-child(1){
+	
+	top:152px ;
+	left:259px ;
+}
+.content3_lines img:nth-child(2){
+	
+	top: 165px;
+	left: 513px;
+}
+.content3_lines img:nth-child(3){
+
+	top:272px ;
+	left:257px ;
+}
+.content3_lines img:nth-child(4){
+	
+	top:271px ;
+	left: 531px;
+}
+
+
+
+
+/*--------------------------------------------------About page end-------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------========================================Products page ==================================---------------------*/
+
+
+#productsContainer{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: rgb(207,10,44);
+	background: linear-gradient(148deg, rgba(207,10,44,1) 0%, rgba(19,41,75,1) 68%);
+	justify-content: center;
+	align-items: center;
+}
+
+
+#productsHero{
+	width: 960px;
+	height: 338px;
+	background-color: white;
+	position: relative;
+
+}
+.p_heroImg{
+	width: 960px;
+	height: 187px;
+	margin-top: 82px;
+	
+
+}
+
+.p_heroImg img{
+	width: 187px;
+	height: 187px;
+}
+
+
+.heroImg1{
+	margin-left: 4px;
+}
+
+.heroHover img{
+	position: absolute;
+
+}
+.heroHover1{
+	top:137px;
+	left: 50px;
+}
+.heroHover2{
+	top: 122px;
+	left: 255px;
+}
+.heroHover3{
+	top: 134px;
+	left:445px;
+}
+.heroHover4{
+	top: 134px;
+	left:624px;
+}
+.heroHover5{
+	top: 99px ;
+	left: 867px;
+	width: 43px;
+	height: 151px;
+}
+
+/*--------------- for slide in -----------*/
+
+
+.heroHover1{
+  animation: slidein 5s ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+  	left: 0;
+  }
+
+  100%{
+	left: 100;
+  }
+}
+
+.heroHover2{
+  animation: slidein 5s ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+  	left: 0;
+  }
+
+  100%{
+	left: 100;
+  }
+}
+
+.heroHover3{
+  animation: slidein 5s ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+  	left: 0;
+  }
+
+  100%{
+	left: 100;
+  }
+}
+
+
+.heroHover4{
+  animation: slidein 5s ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+  	left: 0;
+  }
+
+  100%{
+	left: 100;
+  }
+}
+
+.heroHover5{
+  animation: slidein 5s ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+  	left: 0;
+  }
+
+  100%{
+	left: 100;
+  }
+}
+
+
+/*------------ hero end---------*/
+#p_content1{
+	width: 960px;
+	height: 480px;
+}
+
+
+#p_content2{
+	width: 960px;
+	height: 480px;
+}
+
+
+#p_content3{
+	width: 960px;
+	height: 480px;
+
+}
+#p_content4{
+	width: 960px;
+	height: 480px;
+}
+/*---------------*/
+#p_content1{
+	margin-top: 58px;
+}
+
+#p_content2,#p_content3,#p_content4{
+	margin-top: 38px;
+}
+/*----------------*/
+#p_content1,#p_content2,#p_content3,#p_content4{
+	position: relative;
+
+}
+/*----------------*/
+.content1_beer,.content2_beer,.content3_beer,.content4_beer{
+	position: absolute;
+	top: 168px;
+	left: 148px;
+
+}
+/*----------------*/
+#beer_info_1,#beer_info_2,#beer_info_3,#beer_info_4{
+	position: absolute;
+	top: 72px;
+	left: 284px;
+	display: flex;
+	flex-direction: column;
+}
+/*----------------*/
+#beer_info_1 h4,#beer_info_2 h4,#beer_info_3 h4,#beer_info_4 h4{
+	font-size: 46px;
+	margin-bottom: 18px;
+}
+/*----------------*/
+#beer_info_1 h4{
+	color: #0B61A3;
+}
+#beer_info_2 h4{
+	color: #E7C1FF;
+}
+
+#beer_info_3 h4{
+	color: #FEC100;
+}
+
+#beer_info_4 h4{
+	color: #1CA066;
+}
+/*----------------*/
+
+.beer_brief{
+	width: 600px;
+	height: 94px;
+	font-size: 24px;
+	color: white;
+	margin-bottom: 50px;
+}
+/*----------------*/
+#beer_detail_1,#beer_detail_2,#beer_detail_3,#beer_detail_4{
+	width: 412px;
+	height:70px;
+	margin-left: 198px;
+}
+/*----------------*/
+#beer_detail_1 ul li {
+	display: inline-block;
+
+}
+#beer_detail_2 ul li {
+	display: inline-block;
+
+}
+#beer_detail_3 ul li {
+	display: inline-block;
+
+}
+#beer_detail_4 ul li {
+	display: inline-block;
+
+}
+/*----------------*/
+
+#beer_detail_1 ul li p{
+	color: #0B61A3;
+	font-size: 15px;
+}
+#beer_detail_2 ul li p{
+	color: #E7C1FF;
+	font-size: 15px;
+}
+
+#beer_detail_3 ul li p{
+	color: #FEC100;
+	font-size: 15px;
+}
+
+#beer_detail_4 ul li p{
+	color: #1CA066;
+	font-size: 15px;
+}
+
+/*----------------*/
+
+#beer_detail_1 ul li p:nth-child(2){
+	font-size: 38px;
+}
+#beer_detail_2 ul li p:nth-child(2){
+	font-size: 38px;
+}
+#beer_detail_3 ul li p:nth-child(2){
+	font-size: 38px;
+}
+#beer_detail_4 ul li p:nth-child(2){
+	font-size: 38px;
+}
+/*----------------*/
+
+#beer_detail_1 ul li:nth-child(1),#beer_detail_1 ul li:nth-child(2),#beer_detail_1 ul li:nth-child(3){
+	margin-right: 50px;
+}
+#beer_detail_2 ul li:nth-child(1),#beer_detail_2 ul li:nth-child(2),#beer_detail_2 ul li:nth-child(3){
+	margin-right: 50px;
+}
+#beer_detail_3 ul li:nth-child(1),#beer_detail_3 ul li:nth-child(2),#beer_detail_3 ul li:nth-child(3){
+	margin-right: 50px;
+}
+#beer_detail_4 ul li:nth-child(1),#beer_detail_4 ul li:nth-child(2),#beer_detail_4 ul li:nth-child(3){
+	margin-right: 50px;
+}
+
+/*-------  for button ---------*/
+
+.products_button1{
+	width: 122px;
+	height: 46px;
+	border-radius: 21px;
+	background-color: #13294B;
+	text-align: center;
+	color: white;
+	line-height: 46px;
+	text-decoration: none;
+	margin-left: 450px;
+	margin-top: 35px;
+	transition: ease-in-out 0.6s;
+}
+.products_button1:hover {
+		border-radius:10px;
+  		box-shadow:  inset 205px 0 0 0 #004B97;
+  		color: #CF0A2C;
+
+}
+
+
+.products_button2{
+	width: 122px;
+	height: 46px;
+	border-radius: 21px;
+	background-color: #13294B;
+	text-align: center;
+	color: white;
+	line-height: 46px;
+	text-decoration: none;
+	margin-left: 450px;
+	margin-top: 35px;
+	transition: ease-in-out 0.6s;
+}
+
+.products_button2:hover {
+		border-radius:10px;
+  		box-shadow:  inset 205px 0 0 0 #E7C1FF;
+  		color: #CF0A2C;
+
+}
+
+
+
+
+
+.products_button3{
+	width: 122px;
+	height: 46px;
+	border-radius: 21px;
+	background-color: #13294B;
+	text-align: center;
+	color: white;
+	line-height: 46px;
+	text-decoration: none;
+	margin-left: 450px;
+	margin-top: 35px;
+	transition: ease-in-out 0.6s;
+}
+
+.products_button3:hover {
+		border-radius:10px;
+  		box-shadow:  inset 205px 0 0 0 #FEBF00;
+  		color: #CF0A2C;
+
+}
+
+
+
+.products_button4{
+	width: 122px;
+	height: 46px;
+	border-radius: 21px;
+	background-color: #13294B;
+	text-align: center;
+	color: white;
+	line-height: 46px;
+	text-decoration: none;
+	margin-left: 450px;
+	margin-top: 35px;
+	transition: ease-in-out 0.6s;
+}
+
+.products_button4:hover {
+		border-radius:10px;
+  		box-shadow:  inset 205px 0 0 0 #1CA066;
+  		color: #CF0A2C;
+
+}
+
+
+/*----------------*/
+
+/*----------==================Products page end ===================------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------==================Advertisements page start ===================---------------------*/
+
+
+
+#adsContainer{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: rgb(207,10,44);
+	background: linear-gradient(148deg, rgba(207,10,44,1) 0%, rgba(19,41,75,1) 68%);
+	justify-content: center;
+	align-items: center;
+}
+
+/*----------------  ads hero --------------------*/
+#adsHero {
+	width:960px;
+	height: 337px;
+}
+
+#adsHero p{
+	font-size: 46px;
+	color: white;
+	position: absolute;
+	top: 347px;
+	left: 243px;
+}
+
+#adsHero{
+	position: relative;
+}
+
+/*----------------  ads hero  end--------------------*/
+
+/*--------------------  banner 1 ----------------------*/
+
+#ads_banner1 {
+	width: 960px;
+	height: 465px;
+}
+#ads_banner1 img{
+	float: left;
+}
+/*--------------------  banner 1 end ----------------------*/
+
+
+/*--------------------  banner 2 ----------------------*/
+
+#ads_banner2 {
+	width: 960px;
+	height: 370px;
+	position: relative;
+}
+
+#ads_banner2 img{
+	float: left;
+	width: 960px;
+	height: 370px;
+
+}
+
+
+
+
+.ads_banner2Text p{
+	color: white;
+	position: absolute;
+}
+
+
+.ads_banner2Text p:nth-child(1){
+	font-size: 27px;
+	top: 77px;
+	left: 176px;
+	
+}
+
+
+.ads_banner2Text p:nth-child(2){
+	font-size: 60px;
+	top: 66px;
+	left: 626px;
+	
+}
+
+.ads_banner2Text p:nth-child(3){
+	font-size: 10px;
+	top: 127px;
+	left: 600px;
+	
+}
+
+.couponButton{
+	display: block;
+	color: #CF0A2c;
+	font-size: 20px;
+	background-color: white;
+	width: 358px;
+	height: 54px;
+	border-radius: 26px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 54px;
+	position: absolute;
+	box-shadow: 1px 3px 7px rgba(0, 0, 0, .2);
+	top: 301px;
+	left: 286px;
+	animation:scale 2s infinite ease-in-out;;
+}
+
+
+@keyframes scale{
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+
+
+  }
+
+}
+/*------------------------*/
+
+#ads_banner3{
+	width: 960px;
+	height: 416px;
+	position: relative;
+
+}
+.banner3Button{
+	position: absolute;
+	top: 286px;
+	left: 540px;
+	width: 175px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #13294B;
+	color: white;
+	font-size: 22px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	border:none;
+	transition: ease-in-out 0.6s;
+	filter: brightness(80%);
+}
+.banner3Button:hover{
+	color: #CF0A2C;
+	filter: brightness(200%);
+	transform: scale(1.5);
+}
+
+
+
+/*-----------------------*/
+
+
+#ads_banner4{
+	width: 960px;
+	height: 829px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+.banner4_left{
+	margin-left: 22px;
+	margin-top: 35px;
+	width: 398px;
+	height: 762px;
+}
+
+
+
+.banner4_mid{
+	margin-left: 24px;
+	margin-top: 35px;
+	width: 256px;
+	height: 762px;
+}
+
+
+
+.banner4_right{
+	margin-left: 29px;
+	margin-top: 35px;
+	width: 210px;
+	height: 762px;
+}
+
+.rightTop {
+	width: 210px;
+	height: 236px;
+}
+.rightBottom{
+	width: 210px;
+	height: 505px;
+
+}
+
+.leftTop,.leftBottom,.midTop,.midBottom,.rightTop,.rightBottom {
+  position: relative;
+}
+
+.hoverText{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: ease-in-out 0.6s;
+	background: rgb(207,10,44);
+	background: linear-gradient(123deg, rgba(207,10,44,1) 6%, rgba(19,41,75,1) 54%);
+}
+
+.overlay{
+	position: absolute;	
+	font-size: 28px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;	
+}
+
+
+.leftTop:hover .hoverText{
+	opacity: 90%;
+}
+
+.leftBottom:hover .hoverBottom1{
+	opacity: 90%;
+}
+
+
+.midTop:hover .hoverText{
+	opacity: 90%;
+}
+
+.midBottom:hover .hoverBottom2{
+	opacity: 90%;
+}
+
+
+.rightTop:hover .hoverText{
+	opacity: 90%;
+}
+
+.rightBottom:hover .hoverBottom3{
+	opacity: 90%;
+}
+
+/*------ set margin for img*/
+
+
+.leftBottom img{
+	margin-top: 13px;
+}
+
+
+.midBottom img{
+	margin-top: 15px;
+}
+
+.rightBottom img{
+	margin-top: 21px;
+}
+
+
+
+/*---- correct bottom overlay position*/
+
+.hoverBottom1{
+	position: absolute;
+	top: 13px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 351px;
+	width: 100%;
+	opacity: 0;
+	transition: ease-in-out 0.6s;
+	background: rgb(207,10,44);
+	background: linear-gradient(123deg, rgba(207,10,44,1) 6%, rgba(19,41,75,1) 54%);
+}
+
+
+
+.hoverBottom2{
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 276px;
+	width: 100%;
+	opacity: 0;
+	transition: ease-in-out 0.6s;
+	background: rgb(207,10,44);
+	background: linear-gradient(123deg, rgba(207,10,44,1) 6%, rgba(19,41,75,1) 54%);
+}
+
+
+.hoverBottom3{
+	position: absolute;
+	top: 21px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 505px;
+	width: 100%;
+	opacity: 0;
+	transition: ease-in-out 0.6s;
+	background: rgb(207,10,44);
+	background: linear-gradient(123deg, rgba(207,10,44,1) 6%, rgba(19,41,75,1) 54%);
+}
+
+
+
+
+/*----------==================Advertisements page end ===================---------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------- This is for contact page --------------------------------------------*/
+#contactContainer{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+/*----------for banner -----------*/
+#contactBanner{
+	width: 960px;
+	height: 407px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	position: relative;
+	background-color: #2F2E2E;
+}
+
+.blueLine{
+	width: 257px;
+	height: 19px;
+	background-color: #24C7E5;
+	opacity:0.4;
+	margin-top: 145px;
+	margin-left:69px;	
+}
+
+.c_bannerText{
+	width: 352px;
+	height: 181px;
+	position: absolute;
+	top: 95px;
+	left: 69px;
+}
+
+.c_bannerText h4{
+	font-size: 70px;
+	color: white;
+}
+.c_bannerText p {
+	font-size: 20px;
+	color: white;
+	margin-top: 25px;
+}
+
+.gradientCircle{
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	background: rgb(2,0,36);
+	background: linear-gradient(80deg, rgba(2,0,36,1) 29%, rgba(207,10,44,1) 100%);
+	opacity: 50%;
+	/*backdrop-filter:blur(1rem);*/
+	filter: blur(4px);
+	box-shadow:inset 0px 0px 100px 100px rgba(255,255,255, 0.1);
+	border-radius: 50%;
+	top: 107px;
+	left: 194px;
+}
+
+
+
+/*relative blueLine position */
+.c_bannerPhoto_1{
+	margin:90px 20px 90px 200px;
+}
+
+
+.c_bannerPhoto_2{
+	margin-top: 70px;
+	margin-left: 10px;
+}
+
+/*-----------banner end -----------*/
+
+
+/*---------- contact form 1 -----------*/
+
+#contactForm1{
+	width: 960px;
+	height: 601px;
+	background-color: black;
+	display: flex;
+	position: relative;
+/*	align-items: center;
+	justify-content: center;*/
+}
+
+
+.form1Bg{
+	display: flex;
+}
+.formCircle1{
+	height: 370px;
+	width: 370px;
+    background: #CF0A2C;
+    border-radius: 0 0 370px 0;
+	filter: blur(2px);
+}
+
+.formCircle2{
+	height: 370px;
+	width: 370px;
+    background: #13294B;
+    border-radius: 370px 0 0 0;
+    float: right;
+    margin-top: 231px;
+    margin-left: 220px;
+ 	filter: blur(2px);
+}
+
+#form1Board{
+	width: 770px;
+	height: 412px;
+	background-color: #2f2f2f;
+	position: absolute;
+	top: 111px;
+	left: 95px;
+	display: flex;
+	flex-direction: row;
+}
+
+.form1Logo{
+	width: 225px;
+	height: 120px;
+}
+
+.form1Logo img{
+	margin-top: 180px;
+	margin-left: 90px;
+}
+
+
+
+
+.form1Right{
+	display: flex;
+	flex-direction: column;
+	width: 370px;
+	height: 412px;
+	margin-left: 110px;
+}
+
+
+
+.form1Title1{
+	color:#24C7E5;
+	margin-top: 52px;
+	font-size: 38px
+
+}
+
+.form1Title2{
+	color: white;
+	margin-top: 11px;
+	font-size: 32px;
+}
+
+.formInRow{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+
+#age{
+	margin-left: 29px;
+}
+
+#email{
+	margin-top: 26px;
+}
+
+#address{
+	margin-top: 24px;
+}
+#checkbox{
+	margin-top: 24px;
+
+}
+.submitButton{
+	margin-top: 27px;
+}
+
+.inputEmail, .inputAddress{
+	width: 328.5px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px; 
+	background-color: #2F2F2F;
+	font-size: 18px;
+}
+
+.inputName,.inputAge{
+	width: 148px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px; 
+	background-color: #2F2F2F;
+	font-size: 18px;
+}
+
+
+.inputCheck{
+	width: 17px;
+	height:17px;
+	cursor: pointer;
+}
+
+#checkbox label{
+	color: #808080;
+}
+
+.submitButton{
+	width: 85px;
+	height: 24px;
+	background-color: #24C7E5;
+	border-radius: 12px;
+	text-align: center;
+}
+.submitButton a{
+	font-size: 10px;
+	color: white;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+span{
+	color:#24C7E5;
+}
+
+/*---------- contact form 1 end ----------*/
+
+
+
+
+/*---------- contact form 2  ----------*/
+#contactForm_2{
+	width: 960px;
+	height: 591px;
+	display: flex;
+}
+
+#map{
+
+	float: left;
+}
+
+
+/*form 2 right side*/
+#form2Right{
+	width: 480px;
+	height: 620px;
+	background-color: #2F2F2F;
+	float: right;
+
+}
+.form2Title{
+	margin-left: 174px;
+	margin-top: 52px;
+}
+
+
+.form2Title p{
+	font-size: 27px;
+	color: white;
+}
+
+.contactForm2Icon {
+	width: 369px;
+	height: 78px;
+	margin-top: 20px;
+	margin-left: 78px;
+
+}
+
+.contactForm2Icon div{
+	float: left;
+}
+
+.contactForm2Icon p{
+	font-size: 18px;
+	color: white;
+}
+
+/*location icon*/
+.icon_location{
+	width: 72px;
+	height: 92px;
+	margin-right: 47px;
+}
+
+/*phone icon*/
+
+.icon_phone {
+	width: 109px;
+	height: 92px;
+	margin-right: 36px;
+}
+.icon_phone object{
+	margin-left: 17px; 
+}
+
+/*wifi icon*/
+.icon_wifi{
+	width: 50px;
+	height: 92px;
+}
+.icon_wifi p{
+	margin-left: 20px;
+}
+
+.icon_location object,.icon_phone object{
+	margin-bottom: 23px;
+}
+
+.icon_wifi object{
+	margin-bottom: 20px;
+}
+
+/*------------------------*/
+
+.form2Bottom{
+	width: 385px;
+	height: 313px;
+	background-color: black;
+	border-radius: 47px;
+	margin-top: 60px;
+	margin-left: 46px;
+
+}
+
+
+.form2Title2 {
+	width: 385px;
+	height: 55px;
+}
+.form2Title2 p{
+	color: white;
+	text-align: center;
+	line-height: 55px;
+
+}
+
+#deliveryForm{
+	display: flex;
+}
+
+.form2Bottom_left{
+	float: left;
+	margin-left: 26px;
+	width: 150px;
+	height: 217px;
+}
+
+#inputCity, #inputStreet, #inputPostcode{
+	width: 149px;
+	height: 36px;
+	border-radius:18px;
+	font-size: 13px;
+	font-family: "bud_boldregular",Arial,serif;
+}
+#city,#street,#postcode{
+	display: flex;
+	flex-direction: column;
+}
+
+#city,#street{
+	margin-bottom: 3px;
+}
+
+#postcode{
+	margin-bottom: 20px;
+}
+
+
+.form2Bottom_left label{
+	color: white;
+	font-size: 13px;
+	margin-left: 5px;
+}
+
+.form2Bottom_right label{
+	color: white;
+	margin-left: 5px;
+	
+}
+
+
+.form2Bottom_right {
+	margin-left: 25px;
+}
+
+#messageArea{
+	background-color: white;
+	width: 149px;
+	height: 194px;
+	border-radius: 18px;
+	margin-top: 10px;
+	font-family: "bud_boldregular",Arial,serif;
+	color: #808080;
+
+}
+
+.finishButton a{
+	color: white;
+	text-decoration: none;
+}
+.finishButton{
+	width: 149px;
+	height: 36px;
+	background-color: #24C7E5;
+	border-radius: 18px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 36px;
+
+}
+
+/*----- svg icon animation---------*/
+
+
+
+/*more animaiton were write into svg file*/
+
+
+.icon_location object:hover{cursor: pointer;filter: invert(0.9);
+
+}
+
+.icon_phone object:hover{cursor: pointer;filter: invert(0.6);
+
+}
+.icon_wifi object:hover{cursor: pointer;filter: invert(0.9);
+
+}
+
+/*---------- contact form 2 end ----------*/
+
+
+/*------footer---------*/
+
+footer{
+	width: 960px;
+	height: 105px;
+	display: flex;
+	background: rgb(19,41,75);
+	background: linear-gradient(90deg, rgba(19,41,75,1) 24%, rgba(207,10,44,1) 72%);
+}
+
+.footerRight{
+	width: 380px;
+	height: 83px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-left: 350px;
+}
+.footerLogo{
+	margin-top: 20px;
+	margin-left: 18px;
+
+}
+.socialMedia{
+	width: 313px;
+	height: 32px;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 18px;
+}
+.socialMedia p{
+	color:white;
+	font-size: 22px;
+	text-transform: uppercase;
+	line-height: 32px;
+}
+#facebook{
+	margin-left: 49px;
+}
+
+#twitter,#youTube{
+	margin-left: 16px;
+}
+
+.footerCopy p{
+	text-align: center;
+	font-size:12px;	
+	color: white;
+	margin-top: 10px;
+}
+
+/*-------footer end--------*/
+
+
+/*-------------------------------- contact page end ---------------------------------*/
+
+
+
